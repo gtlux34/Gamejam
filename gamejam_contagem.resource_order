@@ -21,6 +21,9 @@
     {"name":"Obj_Title_Menu","order":5,"path":"objects/Obj_Title_Menu/Obj_Title_Menu.yy",},
     {"name":"Obj_Wall_Leaves_BG","order":2,"path":"objects/Obj_Wall_Leaves_BG/Obj_Wall_Leaves_BG.yy",},
     {"name":"Obj_Wood_Wall_2","order":1,"path":"objects/Obj_Wood_Wall_2/Obj_Wood_Wall_2.yy",},
+    {"name":"objControleBomba","order":7,"path":"objects/objControleBomba/objControleBomba.yy",},
+    {"name":"ObjFios","order":8,"path":"objects/ObjFios/ObjFios.yy",},
+    {"name":"objLuz","order":9,"path":"objects/objLuz/objLuz.yy",},
     {"name":"onj_template","order":5,"path":"objects/onj_template/onj_template.yy",},
     {"name":"Rm_Title_Screen","order":6,"path":"rooms/Rm_Title_Screen/Rm_Title_Screen.yy",},
     {"name":"Snd_sound","order":7,"path":"sounds/Snd_sound/Snd_sound.yy",},
@@ -33,6 +36,7 @@
     {"name":"Spr_Wall_Wood_2","order":1,"path":"sprites/Spr_Wall_Wood_2/Spr_Wall_Wood_2.yy",},
     {"name":"Sprite48","order":2,"path":"sprites/Sprite48/Sprite48.yy",},
     {"name":"sprTitleCard","order":3,"path":"sprites/sprTitleCard/sprTitleCard.yy",},
+    {"name":"sprWire","order":7,"path":"sprites/sprWire/sprWire.yy",},
     {"name":"template_slots","order":6,"path":"sprites/template_slots/template_slots.yy",},
   ],
 }

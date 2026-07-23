@@ -1,0 +1,11 @@
+draw_sprite_ext(
+    sprWire,
+    0,
+    x,
+    y,
+    1,
+    1,
+    image_angle,
+    cor,
+    1
+);
