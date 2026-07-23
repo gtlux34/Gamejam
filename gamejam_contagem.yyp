@@ -28,7 +28,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"gamejam_contagem",
   "resources":[
@@ -44,8 +44,6 @@
     {"id":{"name":"Obj_Title_Menu","path":"objects/Obj_Title_Menu/Obj_Title_Menu.yy",},},
     {"id":{"name":"Obj_Wall_Leaves_BG","path":"objects/Obj_Wall_Leaves_BG/Obj_Wall_Leaves_BG.yy",},},
     {"id":{"name":"Obj_Wood_Wall_2","path":"objects/Obj_Wood_Wall_2/Obj_Wood_Wall_2.yy",},},
-    {"id":{"name":"objControleBomba","path":"objects/objControleBomba/objControleBomba.yy",},},
-    {"id":{"name":"ObjFios","path":"objects/ObjFios/ObjFios.yy",},},
     {"id":{"name":"objLuz","path":"objects/objLuz/objLuz.yy",},},
     {"id":{"name":"onj_template","path":"objects/onj_template/onj_template.yy",},},
     {"id":{"name":"Rm_Title_Screen","path":"rooms/Rm_Title_Screen/Rm_Title_Screen.yy",},},

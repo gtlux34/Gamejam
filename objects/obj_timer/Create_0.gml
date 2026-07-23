@@ -1,0 +1,2 @@
+global.tempo = 60;
+

@@ -21,8 +21,6 @@
     {"name":"Obj_Title_Menu","order":5,"path":"objects/Obj_Title_Menu/Obj_Title_Menu.yy",},
     {"name":"Obj_Wall_Leaves_BG","order":2,"path":"objects/Obj_Wall_Leaves_BG/Obj_Wall_Leaves_BG.yy",},
     {"name":"Obj_Wood_Wall_2","order":1,"path":"objects/Obj_Wood_Wall_2/Obj_Wood_Wall_2.yy",},
-    {"name":"objControleBomba","order":7,"path":"objects/objControleBomba/objControleBomba.yy",},
-    {"name":"ObjFios","order":8,"path":"objects/ObjFios/ObjFios.yy",},
     {"name":"objLuz","order":9,"path":"objects/objLuz/objLuz.yy",},
     {"name":"onj_template","order":5,"path":"objects/onj_template/onj_template.yy",},
     {"name":"Rm_Title_Screen","order":6,"path":"rooms/Rm_Title_Screen/Rm_Title_Screen.yy",},
