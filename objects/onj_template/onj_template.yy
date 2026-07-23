@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"bomb_controler",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"onj_template",
+  "eventList":[],
   "managed":true,
-  "name":"bomb_controler",
+  "name":"onj_template",
   "overriddenProperties":[],
   "parent":{
     "name":"objetos",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_Bomb1",
-    "path":"sprites/Spr_Bomb1/Spr_Bomb1.yy",
+    "name":"template_slots",
+    "path":"sprites/template_slots/template_slots.yy",
   },
   "spriteMaskId":null,
   "visible":true,
