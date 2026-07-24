@@ -27,7 +27,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"gamejam_contagem",
   "resources":[
@@ -35,6 +35,7 @@
     {"id":{"name":"Handler_Controler","path":"objects/Handler_Controler/Handler_Controler.yy",},},
     {"id":{"name":"obj_caixa_fds","path":"objects/obj_caixa_fds/obj_caixa_fds.yy",},},
     {"id":{"name":"obj_caixa_tampa","path":"objects/obj_caixa_tampa/obj_caixa_tampa.yy",},},
+    {"id":{"name":"obj_fungo_player","path":"objects/obj_fungo_player/obj_fungo_player.yy",},},
     {"id":{"name":"Obj_Historinha_fim","path":"objects/Obj_Historinha_fim/Obj_Historinha_fim.yy",},},
     {"id":{"name":"Obj_Historinha","path":"objects/Obj_Historinha/Obj_Historinha.yy",},},
     {"id":{"name":"obj_master_control","path":"objects/obj_master_control/obj_master_control.yy",},},
@@ -58,6 +59,7 @@
     {"id":{"name":"Spr_btn_font","path":"sprites/Spr_btn_font/Spr_btn_font.yy",},},
     {"id":{"name":"spr_caixa_tampa","path":"sprites/spr_caixa_tampa/spr_caixa_tampa.yy",},},
     {"id":{"name":"spr_caixa","path":"sprites/spr_caixa/spr_caixa.yy",},},
+    {"id":{"name":"spr_fundo_player","path":"sprites/spr_fundo_player/spr_fundo_player.yy",},},
     {"id":{"name":"Spr_Handler","path":"sprites/Spr_Handler/Spr_Handler.yy",},},
     {"id":{"name":"Spr_Main_Font","path":"sprites/Spr_Main_Font/Spr_Main_Font.yy",},},
     {"id":{"name":"Spr_players","path":"sprites/Spr_players/Spr_players.yy",},},
