@@ -14,8 +14,6 @@
     {"name":"obj_caixa_fds","order":10,"path":"objects/obj_caixa_fds/obj_caixa_fds.yy",},
     {"name":"obj_caixa_tampa","order":11,"path":"objects/obj_caixa_tampa/obj_caixa_tampa.yy",},
     {"name":"obj_fungo_player","order":12,"path":"objects/obj_fungo_player/obj_fungo_player.yy",},
-    {"name":"Obj_Historinha_fim","order":3,"path":"objects/Obj_Historinha_fim/Obj_Historinha_fim.yy",},
-    {"name":"Obj_Historinha","order":2,"path":"objects/Obj_Historinha/Obj_Historinha.yy",},
     {"name":"obj_master_control","order":6,"path":"objects/obj_master_control/obj_master_control.yy",},
     {"name":"obj_potrait","order":3,"path":"objects/obj_potrait/obj_potrait.yy",},
     {"name":"Obj_Settings","order":4,"path":"objects/Obj_Settings/Obj_Settings.yy",},
