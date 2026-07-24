@@ -1,10 +1,10 @@
 {
   "FolderOrderSettings":[
-    {"name":"sons","order":6,"path":"folders/sons.yy",},
     {"name":"Menu System","order":4,"path":"folders/Menu System.yy",},
     {"name":"UI_Elements","order":1,"path":"folders/Menu System/UI_Elements.yy",},
     {"name":"objetos","order":2,"path":"folders/objetos.yy",},
     {"name":"roms","order":5,"path":"folders/roms.yy",},
+    {"name":"sons","order":6,"path":"folders/sons.yy",},
     {"name":"sprites","order":3,"path":"folders/sprites.yy",},
     {"name":"Map_Sprites","order":2,"path":"folders/sprites/Map_Sprites.yy",},
     {"name":"Spr_Walls","order":1,"path":"folders/sprites/Map_Sprites/Spr_Walls.yy",},
@@ -13,6 +13,7 @@
     {"name":"bomb_controler","order":1,"path":"objects/bomb_controler/bomb_controler.yy",},
     {"name":"obj_caixa_fds","order":10,"path":"objects/obj_caixa_fds/obj_caixa_fds.yy",},
     {"name":"obj_caixa_tampa","order":11,"path":"objects/obj_caixa_tampa/obj_caixa_tampa.yy",},
+    {"name":"obj_fungo_player","order":12,"path":"objects/obj_fungo_player/obj_fungo_player.yy",},
     {"name":"Obj_Historinha_fim","order":3,"path":"objects/Obj_Historinha_fim/Obj_Historinha_fim.yy",},
     {"name":"Obj_Historinha","order":2,"path":"objects/Obj_Historinha/Obj_Historinha.yy",},
     {"name":"obj_master_control","order":6,"path":"objects/obj_master_control/obj_master_control.yy",},
@@ -31,6 +32,7 @@
     {"name":"Spr_Bomb1","order":1,"path":"sprites/Spr_Bomb1/Spr_Bomb1.yy",},
     {"name":"spr_caixa_tampa","order":8,"path":"sprites/spr_caixa_tampa/spr_caixa_tampa.yy",},
     {"name":"spr_caixa","order":9,"path":"sprites/spr_caixa/spr_caixa.yy",},
+    {"name":"spr_fundo_player","order":11,"path":"sprites/spr_fundo_player/spr_fundo_player.yy",},
     {"name":"Spr_players","order":4,"path":"sprites/Spr_players/Spr_players.yy",},
     {"name":"Spr_Textbox","order":1,"path":"sprites/Spr_Textbox/Spr_Textbox.yy",},
     {"name":"Spr_timer","order":5,"path":"sprites/Spr_timer/Spr_timer.yy",},
