@@ -5,3 +5,4 @@ timer.chegou = false;
 var portrait = instance_create_layer(-100, 288, "Instances", obj_potrait);
 portrait.destino_x = 64;
 portrait.chegou = false;
+global.bomba_bloqueada = false;

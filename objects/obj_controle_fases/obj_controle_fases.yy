@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"objControleFio",
+  "%Name":"obj_controle_fases",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objControleFio",
+  "name":"obj_controle_fases",
   "overriddenProperties":[],
   "parent":{
-    "name":"modulos",
-    "path":"folders/objetos/modulos.yy",
+    "name":"controladores",
+    "path":"folders/objetos/controladores.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sprFioPlaca",
-    "path":"sprites/sprFioPlaca/sprFioPlaca.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

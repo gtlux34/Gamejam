@@ -8,8 +8,8 @@
   "name":"obj_master_control",
   "overriddenProperties":[],
   "parent":{
-    "name":"objetos",
-    "path":"folders/objetos.yy",
+    "name":"controladores",
+    "path":"folders/objetos/controladores.yy",
   },
   "parentObjectId":null,
   "persistent":true,

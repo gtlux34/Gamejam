@@ -9,8 +9,8 @@
   "name":"bomb_controler",
   "overriddenProperties":[],
   "parent":{
-    "name":"objetos",
-    "path":"folders/objetos.yy",
+    "name":"controladores",
+    "path":"folders/objetos/controladores.yy",
   },
   "parentObjectId":null,
   "persistent":false,

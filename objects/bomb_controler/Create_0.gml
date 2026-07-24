@@ -1,34 +1,43 @@
-var mundo = real(string_copy(global.nivel, 1, 1));
 var fase = real(string_copy(global.nivel, 3, 1));
 
-quantidade_modulos = fase;
+var quantidade_modulos = fase;
+
 randomize();
 
-slots = [
+var slots = [
     [240,128],
     [398,128],
     [240,238],
     [398,238]
 ];
 
-slots_livres = [0,1,2,3];
-modulos = [];
+var modulos_disponiveis = [
+    objControleNum,
+    objControleFio
+];
 
-for (var i = 0; i < quantidade_modulos; i++) {
-    var escolha = irandom(array_length(slots_livres)-1);
-    modulos[i] = slots_livres[escolha];
-    array_delete(slots_livres, escolha, 1);
-}
+var slots_livres = [0,1,2,3];
 
-for (var i = 0; i < array_length(modulos); i++) {
-    var slot = modulos[i];
-    instance_create_layer(slots[slot][0], slots[slot][1], "intermedio", objControleNum);
-}
 
-if (array_length(slots_livres) > 0) {
-    var escolha_fio = irandom(array_length(slots_livres)-1);
-    var slot_fio_index = slots_livres[escolha_fio];
-    var slot_fio = slots[slot_fio_index];
+quantidade_modulos = clamp(quantidade_modulos, 1, array_length(slots));
 
-    instance_create_layer(slot_fio[0], slot_fio[1], "intermedio", objControleFio);
+
+for (var i = 0; i < quantidade_modulos; i++)
+{
+    var escolha_modulo = irandom(array_length(modulos_disponiveis) - 1);
+    var modulo = modulos_disponiveis[escolha_modulo];
+
+    var escolha_slot = irandom(array_length(slots_livres) - 1);
+    var slot = slots_livres[escolha_slot];
+
+
+    instance_create_layer(
+        slots[slot][0],
+        slots[slot][1],
+        "intermedio",
+        modulo
+    );
+
+
+    array_delete(slots_livres, escolha_slot, 1);
 }

@@ -1,6 +1,7 @@
 if (!travado && string_length(entrada) == 4) {
     if (entrada == senha) {
         // acertou
+		resolvido = true;
         travado = true;
         global.tempo += 5;
         audio_play_sound(sndConfirma, 1, false);

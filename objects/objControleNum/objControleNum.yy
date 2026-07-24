@@ -10,8 +10,8 @@
   "name":"objControleNum",
   "overriddenProperties":[],
   "parent":{
-    "name":"objetos",
-    "path":"folders/objetos.yy",
+    "name":"modulos",
+    "path":"folders/objetos/modulos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
