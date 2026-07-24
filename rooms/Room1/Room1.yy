@@ -13,6 +13,8 @@
     {"name":"inst_12A0AF64","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_3393C6EF","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_24423AE0","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_4439A2B","path":"rooms/Room1/Room1.yy",},
+
   ],
   "isDnd":false,
   "layers":[
@@ -23,6 +25,7 @@
     {"$GMRInstanceLayer":"","%Name":"Intermedio","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_12A0AF64","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_12A0AF64","objectId":{"name":"obj_fungo_player","path":"objects/obj_fungo_player/obj_fungo_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-96.0,"y":288.0,},
         {"$GMRInstance":"v4","%Name":"inst_3393C6EF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3393C6EF","objectId":{"name":"obj_controle_fases","path":"objects/obj_controle_fases/obj_controle_fases.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":96.0,},
+        {"$GMRInstance":"v4","%Name":"inst_4439A2B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4439A2B","objectId":{"name":"obj_pause_controler","path":"objects/obj_pause_controler/obj_pause_controler.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"name":"Intermedio","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"bomba","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_4D6AE316","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4D6AE316","objectId":{"name":"Handler_Controler","path":"objects/Handler_Controler/Handler_Controler.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.6875,"scaleY":2.375,"x":597.0,"y":318.0,},

@@ -18,6 +18,7 @@
     {"name":"obj_controle_fases","order":3,"path":"objects/obj_controle_fases/obj_controle_fases.yy",},
     {"name":"obj_fungo_player","order":12,"path":"objects/obj_fungo_player/obj_fungo_player.yy",},
     {"name":"obj_master_control","order":1,"path":"objects/obj_master_control/obj_master_control.yy",},
+    {"name":"obj_pause_controler","order":4,"path":"objects/obj_pause_controler/obj_pause_controler.yy",},
     {"name":"obj_potrait","order":3,"path":"objects/obj_potrait/obj_potrait.yy",},
     {"name":"Obj_Settings","order":4,"path":"objects/Obj_Settings/Obj_Settings.yy",},
     {"name":"obj_timer","order":4,"path":"objects/obj_timer/obj_timer.yy",},
