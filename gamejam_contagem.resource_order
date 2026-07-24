@@ -44,6 +44,7 @@
     {"name":"spr_fundo_player","order":11,"path":"sprites/spr_fundo_player/spr_fundo_player.yy",},
     {"name":"Spr_players","order":4,"path":"sprites/Spr_players/Spr_players.yy",},
     {"name":"spr_questions","order":16,"path":"sprites/spr_questions/spr_questions.yy",},
+    {"name":"Spr_quiz_font","order":4,"path":"sprites/Spr_quiz_font/Spr_quiz_font.yy",},
     {"name":"Spr_Textbox","order":1,"path":"sprites/Spr_Textbox/Spr_Textbox.yy",},
     {"name":"Spr_timer","order":5,"path":"sprites/Spr_timer/Spr_timer.yy",},
     {"name":"Spr_Wall_Leaves_BG","order":2,"path":"sprites/Spr_Wall_Leaves_BG/Spr_Wall_Leaves_BG.yy",},

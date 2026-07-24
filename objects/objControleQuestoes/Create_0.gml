@@ -75,7 +75,28 @@ var perguntas =
         "Van Gogh",
         "Michelangelo",
         "B"
-    ]
+    ],
+	
+	 [
+	 "Sun rises?", 
+	 "North", 
+	 "South", 
+	 "East", 
+	 "West", 
+	 "C"],
+	 
+	 ["Gas to live?",
+	 "Oxygen", "Carbon",
+	 "Nitrogen"
+	 , "Helium",
+	 "A"],
+	 
+	 ["Square sides?", 
+	 "2", 
+	 "3", 
+	 "4", 
+	 "5", 
+	 "C"]
 ];
 
 
@@ -106,29 +127,15 @@ resolvido = false;
 
 travado = false;
 
-
-
-var espacamento = 22;
-
-
-var start_x = x + 31;
-
-var start_y = y - 20;
-
-
+var espacamento = 20;
+var start_x = x + 37;
+var start_y = y - 19;
 
 var letras = ["A","B","C","D"];
-
-
 var i = 0;
 
-
-
-for (var linha = 0; linha < 2; linha++)
-{
-    for (var coluna = 0; coluna < 2; coluna++)
-    {
-
+for (var linha = 0; linha < 2; linha++) {
+    for (var coluna = 0; coluna < 2; coluna++) {
         var botao = instance_create_layer(
             start_x + coluna * espacamento,
             start_y + linha * espacamento,
@@ -136,15 +143,16 @@ for (var linha = 0; linha < 2; linha++)
             objBotaoResposta
         );
 
-
         botao.valor = letras[i];
-
         botao.texto = respostas[i];
-
         botao.dono = id;
 
 
-        i++;
+        if (linha == 0 && coluna == 0) botao.image_blend = c_red;    
+        if (linha == 0 && coluna == 1) botao.image_blend = c_green; 
+        if (linha == 1 && coluna == 0) botao.image_blend = c_blue;  
+        if (linha == 1 && coluna == 1) botao.image_blend = c_yellow; 
 
+        i++;
     }
 }

@@ -1,6 +1,10 @@
 if (keyboard_check_pressed(ord("E"))) {
     ativo = !ativo;
     global.mouse_bloqueado = ativo;
+
+    if (ativo && hint_active) {
+        hint_active = false;
+    }
 }
 
 if (ativo) {
@@ -12,6 +16,13 @@ if (ativo) {
 if (ativo) {
     if (keyboard_check_pressed(vk_right) || keyboard_check_pressed(ord("D"))) pagina++;
     if (keyboard_check_pressed(vk_left) || keyboard_check_pressed(ord("A"))) pagina--;
-
     pagina = clamp(pagina, 0, sprite_get_number(sprLivreta) - 1);
+}
+
+if (!ativo && hint_active) {
+    blink_timer++;
+    if (blink_timer >= 30) {
+        blink_timer = 0;
+        show_hint = !show_hint;
+    }
 }

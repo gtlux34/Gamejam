@@ -1,9 +1,7 @@
-// Verifica resposta da questão
 
 if (!travado && resposta != "")
 {
 
-    // Resposta correta
     if (resposta == correta)
     {
 
@@ -11,8 +9,6 @@ if (!travado && resposta != "")
 
         travado = true;
 
-
-        // recompensa de tempo
         global.tempo += 5;
 
 
@@ -24,15 +20,11 @@ if (!travado && resposta != "")
 
     }
 
-
-    // Resposta errada
     else
     {
 
         resposta = "";
 
-
-        // perde tempo
         global.tempo -= 5;
 
 
