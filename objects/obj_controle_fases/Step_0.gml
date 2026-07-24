@@ -1,3 +1,16 @@
+if (fade > 0)
+{
+    fade -= fade_vel;
+
+    if (fade < 0)
+    {
+        fade = 0;
+    }
+}
+
+
+
+
 if (global.tempo <= 0)
 {
     perder();

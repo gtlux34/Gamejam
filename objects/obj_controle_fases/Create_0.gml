@@ -1,5 +1,8 @@
 estado = "jogando";
 
+//fade temporario
+fade = 1;
+fade_vel = 0.01;
 
 function ganhar()
 {
@@ -28,6 +31,7 @@ function perder()
         return;
 
     estado = "perdeu";
+	global.nivel = "1-1";
 	global.tempo = 60
     show_debug_message("PERDEU");
 
