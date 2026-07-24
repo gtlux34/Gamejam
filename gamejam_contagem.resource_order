@@ -11,6 +11,8 @@
   ],
   "ResourceOrderSettings":[
     {"name":"bomb_controler","order":1,"path":"objects/bomb_controler/bomb_controler.yy",},
+    {"name":"obj_caixa_fds","order":10,"path":"objects/obj_caixa_fds/obj_caixa_fds.yy",},
+    {"name":"obj_caixa_tampa","order":11,"path":"objects/obj_caixa_tampa/obj_caixa_tampa.yy",},
     {"name":"Obj_Historinha_fim","order":3,"path":"objects/Obj_Historinha_fim/Obj_Historinha_fim.yy",},
     {"name":"Obj_Historinha","order":2,"path":"objects/Obj_Historinha/Obj_Historinha.yy",},
     {"name":"obj_master_control","order":6,"path":"objects/obj_master_control/obj_master_control.yy",},
@@ -27,6 +29,8 @@
     {"name":"sndErrado","order":1,"path":"sounds/sndErrado/sndErrado.yy",},
     {"name":"Ob_1","order":2,"path":"sprites/Ob_1/Ob_1.yy",},
     {"name":"Spr_Bomb1","order":1,"path":"sprites/Spr_Bomb1/Spr_Bomb1.yy",},
+    {"name":"spr_caixa_tampa","order":8,"path":"sprites/spr_caixa_tampa/spr_caixa_tampa.yy",},
+    {"name":"spr_caixa","order":9,"path":"sprites/spr_caixa/spr_caixa.yy",},
     {"name":"Spr_players","order":4,"path":"sprites/Spr_players/Spr_players.yy",},
     {"name":"Spr_Textbox","order":1,"path":"sprites/Spr_Textbox/Spr_Textbox.yy",},
     {"name":"Spr_timer","order":5,"path":"sprites/Spr_timer/Spr_timer.yy",},

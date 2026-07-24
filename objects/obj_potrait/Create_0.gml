@@ -1,3 +1,3 @@
-destino_y = 32;
+destino_x = 64;
 chegou = false;
 vel = 6;

@@ -1,12 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"obj_potrait",
+  "%Name":"obj_caixa_tampa",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_potrait",
+  "name":"obj_caixa_tampa",
   "overriddenProperties":[],
   "parent":{
     "name":"objetos",
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_players",
-    "path":"sprites/Spr_players/Spr_players.yy",
+    "name":"spr_caixa_tampa",
+    "path":"sprites/spr_caixa_tampa/spr_caixa_tampa.yy",
   },
   "spriteMaskId":null,
   "visible":true,
