@@ -22,7 +22,7 @@ for (var i = 0; i < quantidade_modulos; i++) {
 
 for (var i = 0; i < array_length(modulos); i++) {
     var slot = modulos[i];
-    instance_create_layer(slots[slot][0], slots[slot][1], "intermedio", onj_template);
+    instance_create_layer(slots[slot][0], slots[slot][1], "intermedio", objControleNum);
 }
 
 if (array_length(slots_livres) > 0) {
