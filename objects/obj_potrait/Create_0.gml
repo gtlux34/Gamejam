@@ -1,4 +1,4 @@
-destino_x = 64;
+destino_x = 68;
 chegou = false;
 vel = 6;
 tempo_max = global.tempo;

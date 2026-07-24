@@ -2,6 +2,7 @@ if (instance_exists(obj_caixa_tampa))
 {
     exit;
 }
+if (global.mouse_bloqueado) exit;
 
 
 if (!cortado)

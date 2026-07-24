@@ -29,7 +29,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"gamejam_contagem",
   "resources":[
@@ -54,7 +54,9 @@
     {"id":{"name":"onj_template","path":"objects/onj_template/onj_template.yy",},},
     {"id":{"name":"Rm_Title_Screen","path":"rooms/Rm_Title_Screen/Rm_Title_Screen.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"snd_musica_gameplay","path":"sounds/snd_musica_gameplay/snd_musica_gameplay.yy",},},
     {"id":{"name":"Snd_sound","path":"sounds/Snd_sound/Snd_sound.yy",},},
+    {"id":{"name":"sndClique","path":"sounds/sndClique/sndClique.yy",},},
     {"id":{"name":"sndConfirma","path":"sounds/sndConfirma/sndConfirma.yy",},},
     {"id":{"name":"sndErrado","path":"sounds/sndErrado/sndErrado.yy",},},
     {"id":{"name":"Ob_1","path":"sprites/Ob_1/Ob_1.yy",},},

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sndClique",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.97351474,
+  "exportDir":"",
+  "name":"sndClique",
+  "parent":{
+    "name":"sons",
+    "path":"folders/sons.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sndClique.ogg",
+  "volume":1.0,
+}

@@ -1,5 +1,6 @@
 if (keyboard_check_pressed(ord("E"))) {
     ativo = !ativo;
+    global.mouse_bloqueado = ativo;
 }
 
 if (ativo) {
@@ -12,6 +13,5 @@ if (ativo) {
     if (keyboard_check_pressed(vk_right) || keyboard_check_pressed(ord("D"))) pagina++;
     if (keyboard_check_pressed(vk_left) || keyboard_check_pressed(ord("A"))) pagina--;
 
-    if (pagina < 0) pagina = 0;
-    if (pagina >= sprite_get_number(sprLivreta)) pagina = sprite_get_number(sprLivreta)-1;
+    pagina = clamp(pagina, 0, sprite_get_number(sprLivreta) - 1);
 }
