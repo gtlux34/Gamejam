@@ -11,9 +11,9 @@
     {"name":"inst_434A98A","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_12A0AF64","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_3393C6EF","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_24423AE0","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_4439A2B","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_563347A4","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_24423AE0","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[

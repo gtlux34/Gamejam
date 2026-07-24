@@ -9,8 +9,6 @@ if (fade > 0)
 }
 
 
-
-
 if (global.tempo <= 0)
 {
     perder();
@@ -18,7 +16,10 @@ if (global.tempo <= 0)
 }
 
 
-var total_modulos = instance_number(objControleFio) + instance_number(objControleNum);
+var total_modulos = instance_number(objControleFio) 
+                  + instance_number(objControleNum)
+                  + instance_number(objControleQuestoes);
+
 
 var completos = 0;
 var perdeu = false;
@@ -38,19 +39,28 @@ with(objControleFio)
 }
 
 
-if (perdeu)
-{
-    perder();
-    exit;
-}
-
-
 with(objControleNum)
 {
     if (resolvido)
     {
         completos++;
     }
+}
+
+
+with(objControleQuestoes)
+{
+    if (resolvido)
+    {
+        completos++;
+    }
+}
+
+
+if (perdeu)
+{
+    perder();
+    exit;
 }
 
 

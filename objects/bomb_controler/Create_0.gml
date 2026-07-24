@@ -13,7 +13,8 @@ var slots = [
 
 var modulos_disponiveis = [
     objControleNum,
-    objControleFio
+    objControleFio,
+	objControleQuestoes
 ];
 
 var slots_livres = [0,1,2,3];

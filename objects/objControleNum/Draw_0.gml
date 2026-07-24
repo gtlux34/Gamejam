@@ -1,11 +1,18 @@
 draw_self();
 
 draw_set_color(c_white);
+
 var texto = "";
+
 for (var i = 0; i < string_length(entrada); i++) {
     texto += "*";
 }
-draw_text(x-30, y-10, texto);
+
+
+// senha digitada (mais acima e esquerda)
+draw_text(x-36, y-24, texto);
+
+
 
 draw_set_color(c_yellow);
 draw_text(x-30, y+20, "Senha: " + senha);
