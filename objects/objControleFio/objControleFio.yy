@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Wall_Leaves_BG",
-  "eventList":[],
+  "%Name":"objControleFio",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Obj_Wall_Leaves_BG",
+  "name":"objControleFio",
   "overriddenProperties":[],
   "parent":{
-    "name":"Walls",
-    "path":"folders/objetos/Map_Objects/Walls.yy",
+    "name":"objetos",
+    "path":"folders/objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_Wall_Leaves_BG",
-    "path":"sprites/Spr_Wall_Leaves_BG/Spr_Wall_Leaves_BG.yy",
+    "name":"sprFioPlaca",
+    "path":"sprites/sprFioPlaca/sprFioPlaca.yy",
   },
   "spriteMaskId":null,
   "visible":true,

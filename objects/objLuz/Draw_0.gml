@@ -1,0 +1,1 @@
+draw_sprite_ext(sprLuz, 0, x, y, 1, 1, 0, cor_luz, 1);

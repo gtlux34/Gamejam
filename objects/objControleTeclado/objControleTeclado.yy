@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Wood_Wall_2",
+  "%Name":"objControleTeclado",
   "eventList":[],
   "managed":true,
-  "name":"Obj_Wood_Wall_2",
+  "name":"objControleTeclado",
   "overriddenProperties":[],
   "parent":{
-    "name":"Walls",
-    "path":"folders/objetos/Map_Objects/Walls.yy",
+    "name":"objetos",
+    "path":"folders/objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Spr_Wall_Wood_2",
-    "path":"sprites/Spr_Wall_Wood_2/Spr_Wall_Wood_2.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

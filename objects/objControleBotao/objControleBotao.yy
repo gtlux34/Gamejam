@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Moss_Wall_1",
+  "%Name":"objControleBotao",
   "eventList":[],
   "managed":true,
-  "name":"Obj_Moss_Wall_1",
+  "name":"objControleBotao",
   "overriddenProperties":[],
   "parent":{
-    "name":"Walls",
-    "path":"folders/objetos/Map_Objects/Walls.yy",
+    "name":"objetos",
+    "path":"folders/objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Spr_Wall_Moss_1",
-    "path":"sprites/Spr_Wall_Moss_1/Spr_Wall_Moss_1.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
