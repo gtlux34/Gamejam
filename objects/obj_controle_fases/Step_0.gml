@@ -18,7 +18,9 @@ if (global.tempo <= 0)
 
 var total_modulos = instance_number(objControleFio) 
                   + instance_number(objControleNum)
-                  + instance_number(objControleQuestoes);
+                  + instance_number(objControleQuestoes)
+                  + instance_number(objControleSom);
+
 
 
 var completos = 0;
@@ -55,6 +57,15 @@ with(objControleQuestoes)
         completos++;
     }
 }
+
+with (objControleSom)
+{
+    if (resolvido)
+    {
+        completos++;
+    }
+}
+
 
 
 if (perdeu)
