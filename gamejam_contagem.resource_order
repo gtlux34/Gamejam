@@ -62,6 +62,7 @@
     {"name":"Spr_Wall_Leaves_BG","order":2,"path":"sprites/Spr_Wall_Leaves_BG/Spr_Wall_Leaves_BG.yy",},
     {"name":"Spr_Wall_Wood_2","order":1,"path":"sprites/Spr_Wall_Wood_2/Spr_Wall_Wood_2.yy",},
     {"name":"sprAcerta","order":24,"path":"sprites/sprAcerta/sprAcerta.yy",},
+    {"name":"sprBoom","order":31,"path":"sprites/sprBoom/sprBoom.yy",},
     {"name":"sprBtnCat","order":21,"path":"sprites/sprBtnCat/sprBtnCat.yy",},
     {"name":"sprBtnClick","order":12,"path":"sprites/sprBtnClick/sprBtnClick.yy",},
     {"name":"sprBtnDog","order":22,"path":"sprites/sprBtnDog/sprBtnDog.yy",},

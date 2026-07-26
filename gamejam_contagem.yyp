@@ -90,6 +90,7 @@
     {"id":{"name":"Spr_Wall_Moss_1","path":"sprites/Spr_Wall_Moss_1/Spr_Wall_Moss_1.yy",},},
     {"id":{"name":"Spr_Wall_Wood_2","path":"sprites/Spr_Wall_Wood_2/Spr_Wall_Wood_2.yy",},},
     {"id":{"name":"sprAcerta","path":"sprites/sprAcerta/sprAcerta.yy",},},
+    {"id":{"name":"sprBoom","path":"sprites/sprBoom/sprBoom.yy",},},
     {"id":{"name":"sprBtnCat","path":"sprites/sprBtnCat/sprBtnCat.yy",},},
     {"id":{"name":"sprBtnClick","path":"sprites/sprBtnClick/sprBtnClick.yy",},},
     {"id":{"name":"sprBtnDog","path":"sprites/sprBtnDog/sprBtnDog.yy",},},
