@@ -24,7 +24,7 @@ if(show_credits)
     draw_text_transformed(
         gui_w/2,
         gui_h/2,
-        "CREDITS\n\nDEV\nIgor\n\nProgrammer\nIgor\n\nArtist\nIgor\n\nSpecial thanks\nJoel\nMayMusical\n\nMade with GameMaker",
+       "CREDITS\n\nProgrammers\nJoel and Gabriel\n\nArtist\nIgor\n\nMade with GameMaker",
         menu_scale,
         menu_scale,
         0
