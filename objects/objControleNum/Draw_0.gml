@@ -14,5 +14,5 @@ draw_text(x-36, y-24, texto);
 
 if (string_length(entrada) == 4) {
     draw_set_color(c_lime);
-    draw_text(x-30, y+40, "Digitado: " + entrada);
+    draw_text(x-30, y+40, "Written: " + entrada);
 }
