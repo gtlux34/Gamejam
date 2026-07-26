@@ -63,6 +63,7 @@
     {"id":{"name":"objLuz","path":"objects/objLuz/objLuz.yy",},},
     {"id":{"name":"onj_template","path":"objects/onj_template/onj_template.yy",},},
     {"id":{"name":"Rm_Title_Screen","path":"rooms/Rm_Title_Screen/Rm_Title_Screen.yy",},},
+    {"id":{"name":"roms_creditos_novos","path":"rooms/roms_creditos_novos/roms_creditos_novos.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"snd_musica_gameplay","path":"sounds/snd_musica_gameplay/snd_musica_gameplay.yy",},},
     {"id":{"name":"Snd_sound","path":"sounds/Snd_sound/Snd_sound.yy",},},
@@ -120,6 +121,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Rm_Title_Screen","path":"rooms/Rm_Title_Screen/Rm_Title_Screen.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"roms_creditos_novos","path":"rooms/roms_creditos_novos/roms_creditos_novos.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
