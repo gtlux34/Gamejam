@@ -45,7 +45,6 @@ if (accept_key || (is_array(option[menu_level][pos]) && hpos != 0))
             switch(pos)
             {
                 case 0:
-                    audio_stop_sound(Snd_sound);
                     room_goto_next();
                 break;
 

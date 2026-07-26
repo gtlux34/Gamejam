@@ -3,7 +3,6 @@ var fase = real(string_copy(global.nivel, 3, 1));
 
 var quantidade_modulos;
 
-
 if (mundo == 1)
 {
     quantidade_modulos = fase;
@@ -12,8 +11,6 @@ else
 {
     quantidade_modulos = 4;
 }
-
-randomize();
 
 var slots = [
     [240,128],
@@ -39,6 +36,8 @@ for (var i = 0; i < quantidade_modulos; i++)
 {
     var escolha_modulo = irandom(array_length(modulos_disponiveis) - 1);
     var modulo = modulos_disponiveis[escolha_modulo];
+
+    array_delete(modulos_disponiveis, escolha_modulo, 1);
 
     var escolha_slot = irandom(array_length(slots_livres) - 1);
     var slot = slots_livres[escolha_slot];

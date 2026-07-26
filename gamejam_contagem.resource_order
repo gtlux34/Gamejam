@@ -45,7 +45,6 @@
     {"name":"Rm_Title_Screen","order":6,"path":"rooms/Rm_Title_Screen/Rm_Title_Screen.yy",},
     {"name":"roms_creditos_novos","order":1,"path":"rooms/roms_creditos_novos/roms_creditos_novos.yy",},
     {"name":"snd_musica_gameplay","order":3,"path":"sounds/snd_musica_gameplay/snd_musica_gameplay.yy",},
-    {"name":"Snd_sound","order":7,"path":"sounds/Snd_sound/Snd_sound.yy",},
     {"name":"sndBoom","order":8,"path":"sounds/sndBoom/sndBoom.yy",},
     {"name":"sndCat","order":6,"path":"sounds/sndCat/sndCat.yy",},
     {"name":"sndClique","order":2,"path":"sounds/sndClique/sndClique.yy",},

@@ -1,7 +1,6 @@
 width = 212;
 height = 182;
 
-musica = audio_play_sound(Snd_sound,50,true);
 
 op_border = 24;
 op_space = 48;

@@ -69,7 +69,6 @@
     {"id":{"name":"roms_creditos_novos","path":"rooms/roms_creditos_novos/roms_creditos_novos.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"snd_musica_gameplay","path":"sounds/snd_musica_gameplay/snd_musica_gameplay.yy",},},
-    {"id":{"name":"Snd_sound","path":"sounds/Snd_sound/Snd_sound.yy",},},
     {"id":{"name":"sndBoom","path":"sounds/sndBoom/sndBoom.yy",},},
     {"id":{"name":"sndCat","path":"sounds/sndCat/sndCat.yy",},},
     {"id":{"name":"sndClique","path":"sounds/sndClique/sndClique.yy",},},
