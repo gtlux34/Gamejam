@@ -8,26 +8,24 @@ if (fade > 0)
     }
 }
 
-
 if (global.tempo <= 0)
 {
     perder();
     exit;
 }
 
-
-var total_modulos = instance_number(objControleFio) 
+var total_modulos = instance_number(objControleFio)
                   + instance_number(objControleNum)
                   + instance_number(objControleQuestoes)
-                  + instance_number(objControleSom);
-
-
+                  + instance_number(objControleSom)
+                  + instance_number(objControleUnder)
+                  + instance_number(objControleJoken);
 
 var completos = 0;
 var perdeu = false;
 
-
-with(objControleFio)
+// Fios
+with (objControleFio)
 {
     if (erro)
     {
@@ -40,8 +38,8 @@ with(objControleFio)
     }
 }
 
-
-with(objControleNum)
+// Numpad
+with (objControleNum)
 {
     if (resolvido)
     {
@@ -49,8 +47,8 @@ with(objControleNum)
     }
 }
 
-
-with(objControleQuestoes)
+// Perguntas
+with (objControleQuestoes)
 {
     if (resolvido)
     {
@@ -58,6 +56,7 @@ with(objControleQuestoes)
     }
 }
 
+// Som
 with (objControleSom)
 {
     if (resolvido)
@@ -66,14 +65,29 @@ with (objControleSom)
     }
 }
 
+// Under
+with (objControleUnder)
+{
+    if (resolvido)
+    {
+        completos++;
+    }
+}
 
+// Joken
+with (objControleJoken)
+{
+    if (resolvido)
+    {
+        completos++;
+    }
+}
 
 if (perdeu)
 {
     perder();
     exit;
 }
-
 
 if (completos == total_modulos && total_modulos > 0)
 {

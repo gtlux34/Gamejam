@@ -15,7 +15,10 @@ var modulos_disponiveis = [
     objControleNum,
     objControleFio,
 	objControleQuestoes,
-	objControleSom
+	objControleSom,
+	objControleUnder,
+	objControleJoken
+
 
 ];
 
