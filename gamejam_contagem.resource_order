@@ -54,6 +54,7 @@
     {"name":"Spr_btn_font","order":3,"path":"sprites/Spr_btn_font/Spr_btn_font.yy",},
     {"name":"spr_caixa_tampa","order":8,"path":"sprites/spr_caixa_tampa/spr_caixa_tampa.yy",},
     {"name":"spr_caixa","order":9,"path":"sprites/spr_caixa/spr_caixa.yy",},
+    {"name":"spr_falas","order":31,"path":"sprites/spr_falas/spr_falas.yy",},
     {"name":"spr_fundo_player","order":11,"path":"sprites/spr_fundo_player/spr_fundo_player.yy",},
     {"name":"Spr_players","order":4,"path":"sprites/Spr_players/Spr_players.yy",},
     {"name":"spr_questions","order":16,"path":"sprites/spr_questions/spr_questions.yy",},
