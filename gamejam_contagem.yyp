@@ -29,7 +29,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"gamejam_contagem",
   "resources":[
@@ -38,6 +38,7 @@
     {"id":{"name":"obj_caixa_fds","path":"objects/obj_caixa_fds/obj_caixa_fds.yy",},},
     {"id":{"name":"obj_caixa_tampa","path":"objects/obj_caixa_tampa/obj_caixa_tampa.yy",},},
     {"id":{"name":"obj_controle_fases","path":"objects/obj_controle_fases/obj_controle_fases.yy",},},
+    {"id":{"name":"obj_falas","path":"objects/obj_falas/obj_falas.yy",},},
     {"id":{"name":"obj_fungo_player","path":"objects/obj_fungo_player/obj_fungo_player.yy",},},
     {"id":{"name":"obj_master_control","path":"objects/obj_master_control/obj_master_control.yy",},},
     {"id":{"name":"obj_pause_controler","path":"objects/obj_pause_controler/obj_pause_controler.yy",},},
