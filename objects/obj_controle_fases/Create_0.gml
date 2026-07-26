@@ -3,6 +3,9 @@ estado = "jogando";
 fade = 1;
 fade_vel = 0.01;
 
+// flag para controlar explosão
+explosao_playing = false;
+
 function ganhar()
 {
     if (estado != "jogando")
@@ -34,25 +37,13 @@ function ganhar()
 
     switch (mundo)
     {
-        case 1:
-            global.tempo = 60;
-            break;
-
-        case 2:
-            global.tempo = 50;
-            break;
-
-        case 3:
-            global.tempo = 40;
-            break;
-
-        default:
-            global.tempo = 30;
-            break;
+        case 1: global.tempo = 60; break;
+        case 2: global.tempo = 50; break;
+        case 3: global.tempo = 40; break;
+        default: global.tempo = 30; break;
     }
 
     audio_stop_sound(snd_musica_gameplay);
-
     room_restart();
 }
 
@@ -61,14 +52,7 @@ function perder()
     if (estado != "jogando")
         return;
 
-    estado = "perdeu";
-
-    global.nivel = "1-1";
-    global.tempo = 60;
-
-    show_debug_message("PERDEU");
-
-    audio_stop_sound(snd_musica_gameplay);
-
-    room_restart();
+    // muda para estado explodindo
+    estado = "explodindo";
+    explosao_playing = false;
 }
