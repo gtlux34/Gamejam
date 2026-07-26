@@ -45,6 +45,8 @@ draw_text(x + 40 + tremor_x, y + tremor_y, txt_mil);
 
 
 
+
 draw_set_color(c_white);
+draw_text(x, y + 33 + tremor_y, global.nivel);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
